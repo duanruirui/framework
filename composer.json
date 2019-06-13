@@ -1,0 +1,21 @@
+{
+    "name": "duanruirui/framwork",
+    "description": "my first php framwork created framework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DUAN RUIRUI",
+            "email": "1095078591@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php":">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Drr\\": "drr"
+        }
+    }
+}
